@@ -19,7 +19,7 @@ Dueflow helps you see what is outstanding, identify overdue invoices, prepare re
 
 ## Architecture
 
-Dueflow is intentionally a single-file static web app.
+Dueflow uses a client-first architecture with a small stateless backend. Invoice data and follow-up history remain in the browser; the backend only processes explicit requests and does not persist application data.
 
 | Layer | Implementation |
 | --- | --- |
