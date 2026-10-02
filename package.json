@@ -1,0 +1,9 @@
+{
+  "name": "dueflow",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Client-side invoice follow-up workspace with a stateless backend API",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
